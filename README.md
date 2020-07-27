@@ -8,3 +8,4 @@ A basic Sudoku solver made by Java. One of the fastest codes written with Java.
 
 * Java Collections
 * Recursion
+* IO
