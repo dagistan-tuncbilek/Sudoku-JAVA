@@ -2,7 +2,7 @@
 
 %100 Original made by dagistan-tuncbilek. Better than most of the counterparts.
 
-A basic Sudoku solver made by Java. One of the fastest codes written with Java. 
+A basic Sudoku solver maden with Java. One of the fastest Sudoku Solver written in Java. 
 
 ### Used Paterns and Libraries
 
