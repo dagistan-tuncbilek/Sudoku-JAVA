@@ -7,10 +7,11 @@ public class App {
 	
 	public static final List<List<Integer>> groupList = Utils.loadGroupList();
 	public static final List<List<Integer>> tileGroups = Utils.loadTileGroupsList();
+	private static String url = "./src/main/resources/example1.txt"; 
 	
 	public static void main(String[] args) {
 		
-		int[] board = Utils.loadSudoku();	
+		int[] board = Utils.loadSudoku(url);	
 		
 		System.out.println("Problem....");
 		for(int i = 0 ; i < 81 ; i++) {

@@ -51,10 +51,10 @@ public class Utils {
 		return Collections.unmodifiableList(groupList);
 	}
 
-	public static int[] loadSudoku() {
+	public static int[] loadSudoku(String url) {
 		int[] sudokuArray = new int[81];
 		try {
-		      File myObj = new File("src/main/resources/sudokuEsas.txt");
+		      File myObj = new File(url);
 		      Scanner myReader = new Scanner(myObj);
 		      int col = 0;
 		      while (myReader.hasNextLine()) {
